@@ -24,7 +24,7 @@ export default function Saving() {
 
     return (
         <>
-            <h1 className="text-6xl font-semibold text-white text-center">{amount}</h1>
+            <h1 className="text-6xl font-semibold text-white text-center">₹{amount}</h1>
 
             <div className="flex flex-wrap justify-center m-10">
                 <button className="bg-red-500 p-2 m-3 rounded-2xl text-white hover:bg-red-700" onClick={calculate}>Calculate Saving</button>
